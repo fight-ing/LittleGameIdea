@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FAFA89619244AEB006D61B2 /* customInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FAFA89519244AEB006D61B2 /* customInfo.plist */; };
 		5FB94BAF1922FACD009A7326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB94BAE1922FACD009A7326 /* Foundation.framework */; };
 		5FB94BB11922FACD009A7326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB94BB01922FACD009A7326 /* CoreGraphics.framework */; };
 		5FB94BB31922FACD009A7326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB94BB21922FACD009A7326 /* UIKit.framework */; };
@@ -19,6 +20,14 @@
 		5FB94BCA1922FACD009A7326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB94BB21922FACD009A7326 /* UIKit.framework */; };
 		5FB94BD21922FACD009A7326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB94BD01922FACD009A7326 /* InfoPlist.strings */; };
 		5FB94BD41922FACD009A7326 /* LittleGameIdeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BD31922FACD009A7326 /* LittleGameIdeaTests.m */; };
+		5FB94BDF1922FAE0009A7326 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BDE1922FAE0009A7326 /* RootViewController.m */; };
+		5FB94BEA19233FA1009A7326 /* BeginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BE919233FA1009A7326 /* BeginViewController.m */; };
+		5FB94BED19233FB3009A7326 /* QuitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BEC19233FB3009A7326 /* QuitViewController.m */; };
+		5FB94BF019233FCE009A7326 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BEF19233FCE009A7326 /* HelpViewController.m */; };
+		5FB94BF6192343B6009A7326 /* PlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BF5192343B6009A7326 /* PlayerItem.m */; };
+		5FB94BF919234619009A7326 /* AddPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BF819234619009A7326 /* AddPlayerViewController.m */; };
+		5FB94BFC192350BD009A7326 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BFB192350BD009A7326 /* GameViewController.m */; };
+		5FB94BFF19235664009A7326 /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB94BFE19235664009A7326 /* PlayerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FAFA89519244AEB006D61B2 /* customInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = customInfo.plist; sourceTree = "<group>"; };
 		5FB94BAB1922FACD009A7326 /* LittleGameIdea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleGameIdea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB94BAE1922FACD009A7326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FB94BB01922FACD009A7326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +58,22 @@
 		5FB94BCF1922FACD009A7326 /* LittleGameIdeaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleGameIdeaTests-Info.plist"; sourceTree = "<group>"; };
 		5FB94BD11922FACD009A7326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FB94BD31922FACD009A7326 /* LittleGameIdeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleGameIdeaTests.m; sourceTree = "<group>"; };
+		5FB94BDD1922FAE0009A7326 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5FB94BDE1922FAE0009A7326 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5FB94BE819233FA1009A7326 /* BeginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeginViewController.h; sourceTree = "<group>"; };
+		5FB94BE919233FA1009A7326 /* BeginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeginViewController.m; sourceTree = "<group>"; };
+		5FB94BEB19233FB3009A7326 /* QuitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuitViewController.h; sourceTree = "<group>"; };
+		5FB94BEC19233FB3009A7326 /* QuitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuitViewController.m; sourceTree = "<group>"; };
+		5FB94BEE19233FCE009A7326 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		5FB94BEF19233FCE009A7326 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		5FB94BF4192343B6009A7326 /* PlayerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerItem.h; sourceTree = "<group>"; };
+		5FB94BF5192343B6009A7326 /* PlayerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerItem.m; sourceTree = "<group>"; };
+		5FB94BF719234619009A7326 /* AddPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlayerViewController.h; sourceTree = "<group>"; };
+		5FB94BF819234619009A7326 /* AddPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlayerViewController.m; sourceTree = "<group>"; };
+		5FB94BFA192350BD009A7326 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5FB94BFB192350BD009A7326 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5FB94BFD19235664009A7326 /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		5FB94BFE19235664009A7326 /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FAFA89419244AB9006D61B2 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFA89519244AEB006D61B2 /* customInfo.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
 		5FB94BA21922FACD009A7326 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +141,8 @@
 		5FB94BB41922FACD009A7326 /* LittleGameIdea */ = {
 			isa = PBXGroup;
 			children = (
+				5FB94BF21923427B009A7326 /* data */,
+				5FB94BF119234249009A7326 /* viewControllers */,
 				5FB94BBD1922FACD009A7326 /* AppDelegate.h */,
 				5FB94BBE1922FACD009A7326 /* AppDelegate.m */,
 				5FB94BC01922FACD009A7326 /* Images.xcassets */,
@@ -142,6 +178,45 @@
 				5FB94BD01922FACD009A7326 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB94BF119234249009A7326 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FAFA89419244AB9006D61B2 /* plist */,
+				5FB94BDD1922FAE0009A7326 /* RootViewController.h */,
+				5FB94BDE1922FAE0009A7326 /* RootViewController.m */,
+				5FB94BF3192342CB009A7326 /* begin */,
+				5FB94BEB19233FB3009A7326 /* QuitViewController.h */,
+				5FB94BEC19233FB3009A7326 /* QuitViewController.m */,
+				5FB94BEE19233FCE009A7326 /* HelpViewController.h */,
+				5FB94BEF19233FCE009A7326 /* HelpViewController.m */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		5FB94BF21923427B009A7326 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		5FB94BF3192342CB009A7326 /* begin */ = {
+			isa = PBXGroup;
+			children = (
+				5FB94BE819233FA1009A7326 /* BeginViewController.h */,
+				5FB94BE919233FA1009A7326 /* BeginViewController.m */,
+				5FB94BF719234619009A7326 /* AddPlayerViewController.h */,
+				5FB94BF819234619009A7326 /* AddPlayerViewController.m */,
+				5FB94BFA192350BD009A7326 /* GameViewController.h */,
+				5FB94BFB192350BD009A7326 /* GameViewController.m */,
+				5FB94BF4192343B6009A7326 /* PlayerItem.h */,
+				5FB94BF5192343B6009A7326 /* PlayerItem.m */,
+				5FB94BFD19235664009A7326 /* PlayerCell.h */,
+				5FB94BFE19235664009A7326 /* PlayerCell.m */,
+			);
+			name = begin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +266,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = zp_liufei;
 				TargetAttributes = {
+					5FB94BAA1922FACD009A7326 = {
+						DevelopmentTeam = ADNAZ8362H;
+					};
 					5FB94BC51922FACD009A7326 = {
 						TestTargetID = 5FB94BAA1922FACD009A7326;
 					};
@@ -221,6 +299,7 @@
 			files = (
 				5FB94BB91922FACD009A7326 /* InfoPlist.strings in Resources */,
 				5FB94BC11922FACD009A7326 /* Images.xcassets in Resources */,
+				5FAFA89619244AEB006D61B2 /* customInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB94BEA19233FA1009A7326 /* BeginViewController.m in Sources */,
+				5FB94BF919234619009A7326 /* AddPlayerViewController.m in Sources */,
+				5FB94BF019233FCE009A7326 /* HelpViewController.m in Sources */,
 				5FB94BBF1922FACD009A7326 /* AppDelegate.m in Sources */,
+				5FB94BFC192350BD009A7326 /* GameViewController.m in Sources */,
+				5FB94BED19233FB3009A7326 /* QuitViewController.m in Sources */,
+				5FB94BF6192343B6009A7326 /* PlayerItem.m in Sources */,
 				5FB94BBB1922FACD009A7326 /* main.m in Sources */,
+				5FB94BFF19235664009A7326 /* PlayerCell.m in Sources */,
+				5FB94BDF1922FAE0009A7326 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +386,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fei Liu (5VVF76MHPL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fei Liu (5VVF76MHPL)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -317,6 +405,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B6C16E7F-C7CF-40A9-BE31-CBFB39C286B0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,7 +428,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fei Liu (5VVF76MHPL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fei Liu (5VVF76MHPL)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -350,6 +440,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "B6C16E7F-C7CF-40A9-BE31-CBFB39C286B0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -361,10 +452,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LittleGameIdea/LittleGameIdea-Prefix.pch";
 				INFOPLIST_FILE = "LittleGameIdea/LittleGameIdea-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,10 +468,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LittleGameIdea/LittleGameIdea-Prefix.pch";
 				INFOPLIST_FILE = "LittleGameIdea/LittleGameIdea-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +540,7 @@
 				5FB94BD91922FACD009A7326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FB94BDA1922FACD009A7326 /* Build configuration list for PBXNativeTarget "LittleGameIdeaTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +549,7 @@
 				5FB94BDC1922FACD009A7326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
